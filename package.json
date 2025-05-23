@@ -1,0 +1,41 @@
+{
+    "name": "@drasla/y2k-korean-converter",
+    "version": "0.0.1",
+    "description": "",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "bin": {
+        "y2k-frontifier": "dist/cli.js"
+    },
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "tsc -p tsconfig.export.json",
+        "clean": "rm -rf dist",
+        "prebuild": "pnpm run clean",
+        "prepublishOnly": "pnpm run build",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "dev": "ts-node src/y2k-fontifier/cli.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "packageManager": "pnpm@10.11.0",
+    "devDependencies": {
+        "@types/jest": "^29.5.14",
+        "@types/node": "^22.15.21",
+        "jest": "^29.7.0",
+        "prettier": "^3.5.3",
+        "ts-jest": "^29.3.4",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
+    },
+    "engines": {
+        "node": ">= 22.16.0",
+        "pnpm": ">= 10.11.0"
+    }
+}
