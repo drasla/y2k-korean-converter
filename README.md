@@ -6,9 +6,9 @@
 
 ```bash
 # npm
-npm install y2k-hangul-converter
+npm install @drasla/y2k-korean-converter
 # pnpm
-pnpm add y2k-hangul-converter
+pnpm add @drasla/y2k-korean-converter
 ```
 
 ## 사용법
@@ -16,7 +16,7 @@ pnpm add y2k-hangul-converter
 ### 기본 사용
 
 ```typescript
-import { applyY2KEffect } from 'y2k-hangul-converter';
+import { applyY2KEffect } from '@drasla/y2k-korean-converter';
 
 // 기본 변환
 const result = applyY2KEffect('안녕하세요');
