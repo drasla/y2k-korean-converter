@@ -5,9 +5,6 @@
     "main": "dist/index.js",
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
-    "bin": {
-        "y2k-frontifier": "dist/cli.js"
-    },
     "files": [
         "dist",
         "README.md"

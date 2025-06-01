@@ -33,7 +33,7 @@ const extreme = applyY2KEffect('안녕하세요', { changeChance: 1.0 });
 
 ### 사용자 정의 변환 맵
 ```typescript
-import { applyY2KEffect, ConvertCharacterMapType } from 'y2k-hangul-converter';
+import { applyY2KEffect, ConvertCharacterMapType } from 'y2k-korean-converter';
 // 사용자 정의 맵
 const myCustomMap: ConvertCharacterMapType = { '안': ['ㅇr', '0ㅏㄴ'], '녕': ['ㄴㅕㅇ', 'ㄴ1ㅕㅇ'], '하': ['ㅎr', 'H'], '세': ['ㅅㅔ', '5ㅔ'], '요': ['ㅇㅛ', 'yo'] };
 // 사용자 정의 맵으로 변환
